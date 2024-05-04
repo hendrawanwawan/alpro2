@@ -6,7 +6,7 @@
 using namespace std;
 
 #define love "nothing"
-#define alone
+//#define
 
 #ifdef love
 #define ada "i have crush but i dont wanna be relationship"

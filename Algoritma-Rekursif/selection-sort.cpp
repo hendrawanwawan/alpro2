@@ -18,11 +18,16 @@ int main() {
     }
     seleksi(ar,user);
     printseleksi(ar,user);
+    int comparisons;
+    int swaps;
+    cout << "Number of comparisons : " << comparisons <<endl;
+    cout << "Number of comparisons : " << swaps <<endl;
     return 0;
 }
-
 void seleksi(int ar[], int user) {
     int a, b, min;
+    int comparisons = 0;
+    int swaps = 0;
     for( a=0; a < user - 1; a++){
         min = a;
         for ( b = a+1; b < user; b++){
@@ -30,7 +35,7 @@ void seleksi(int ar[], int user) {
                 min = b;
         }
         if (min != a) {
-            swap(ar[min],ar[a]);
+            swap(ar[min],ar[a]);gi
         }
     }
 }

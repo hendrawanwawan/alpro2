@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void insertionsort(int ar[],int n) {
+void insertionsort(int ar[],int n,) {
     int j, temp;
     for(int i = 1; i < n ; i++) {
         temp = ar[i];
@@ -13,14 +13,11 @@ void insertionsort(int ar[],int n) {
         ar[j+1] = temp ;
     }
 }
-
 void printinsertionsort(int ar[], int n){
     for(int i = 0 ; i < n ; i++) {
         cout << ar[i] <<" ";
     }
 }
-
-
 int main() {
     // int ar[],n;
     // input(ar,n);
@@ -32,7 +29,7 @@ int main() {
         cout << "Masukan nilai index : " << i+1 << " : ";
         cin >>ar[i];
     }
-    insertionsort(ar,n);
+    insertionsort(ar,n,);
     printinsertionsort(ar,n);
     return 0;
 }   
