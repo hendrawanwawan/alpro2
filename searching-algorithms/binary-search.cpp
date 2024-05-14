@@ -7,7 +7,6 @@ int binarySearchMin(const vector<int>& arr, int& comparisons) {
     int start = 0;
     int end = arr.size() - 1;
     int mid;
-
     while (start <= end) {
         comparisons++;
         mid = start + (end - start) / 2;
@@ -19,7 +18,6 @@ int binarySearchMin(const vector<int>& arr, int& comparisons) {
     }
     return arr[0];  //
 }
-
 int main() {
     int n;
     cout << "Masukkan jumlah elemen array: ";
@@ -30,21 +28,16 @@ int main() {
     for (int i = 0; i < n; ++i) {
         cin >> arr[i];
     }
-
     sort(arr.begin(), arr.end());
-
     cout << "\nArray yang diinput: ";
     for (int i = 0; i < n; ++i) {
         cout << arr[i] << " ";
     }
     cout << endl;
-
     int comparisons = 0;
     int minValue = binarySearchMin(arr, comparisons);
-
     cout << "Nilai minimum yang ditemukan: " << minValue << endl;
     cout << "Jumlah perbandingan yang dilakukan: " << comparisons << endl;
-
     return 0;
 }
 
