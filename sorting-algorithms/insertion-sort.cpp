@@ -1,3 +1,13 @@
+/*
+ Buatlah program untuk mengurutkan data menggunakan algoritma pengurutan insertion
+sort pada bahasa pemrograman C++! Program menerima input jumlah data yang akan
+diurutkan, kemudian meminta pengguna untuk memasukkan nilai-nilai data tersebut.
+Setelah itu, program melakukan pengurutan data menggunakan algoritma insertion sort dan
+menampilkan hasil pengurutan beserta jumlah perbandingan dan jumlah pergeseran data
+yang dilakukan selama proses pengurutan.
+ */
+
+
 #include <iostream>
 using namespace std;
 
