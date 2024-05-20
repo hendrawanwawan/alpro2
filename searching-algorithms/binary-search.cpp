@@ -32,6 +32,7 @@ int main() {
     cout << "\nArray yang diinput: ";
     for (int i = 0; i < n; ++i) {
         cout << arr[i] << " ";
+
     }
     cout << endl;
     int comparisons = 0;
