@@ -13,7 +13,7 @@ int main() {
 }
 
 
-/* INI DIGUNAKAN KETIKA INGIN MELIHAT ALAMAT MEMORI DARI ARRAY
+/* INI DIGUNAKAN KETIKA INGIN MELIHAT ALAMAT MEMORI DARI ARRAY no 7 modul
  * int main() {
     int array[5], *ptr;
     for (int i=0; i < 5; i++) {
